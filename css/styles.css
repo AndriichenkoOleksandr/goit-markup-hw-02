@@ -41,7 +41,7 @@ body {
   line-height: 2;
   color: #212121;
 }
-.text {
+.address-page-list-numb-text {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.9;
@@ -54,4 +54,80 @@ body {
   font-size: 26px;
   line-height: 31px;
   color: #2196f3;
+}
+.hero-page {
+  background: #2f303a;
+}
+.hero-page-studio {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.whatwedo-list-list-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+
+  color: #212121;
+}
+.whatwedo-list-list-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #757575;
+}
+.whatwedo-list-list-title-hero {
+  ont-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: #212121;
+}
+.ourteam-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  color: #212121;
+}
+.ourteam-title-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #212121;
+}
+.ourteam-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #757575;
+}
+.hero-page-button:hover,
+.hero-page-button:focus {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+  color: white;
+  background: #2196f3;
 }

@@ -4,62 +4,70 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-     <nav>
-         <a href="https://webstudio.com ">Web studio</a>
-         <ul>
-         <li>
-             <a href="https://web.com ">Студия</a></li>
-         <li>
-             <a href="https://webst.com ">Портфолио</a></li>
-         <li>
-             <a href="https://wio.com ">Контакты</a></li>
+    <header class="header page">
+        <nav>
+            <a class="header-logo" href="https://webstudio.com ">web studio</a>
+            <ul>
+                <li>
+                    <a class="header-link" href="https://web.com ">Студия</a>
+                </li>
+                <li>
+                    <a class="header-link" href="https://webst.com ">Портфолио</a>
+                </li>
+                <li>
+                    <a class="header-link" href="https://wio.com ">Контакты</a>
+                </li>
     
-
-         </ul>
-         </nav>
-         <ul>
+    
+            </ul>
+        </nav>
+        <ul>
             <li>
-                <a href="hhtps://stud.com">info@devstudio.com</a>
+                <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li>
-                <a href="https://wdio.com ">+38096 111 11 11</a>
+                <a class="contacts" href="tel:=380961111111">+38096 111 11 11</a>
             </li>
-        </ul> 
+        </ul>
+    
     </header>
     <main>
     
-            <section>
-                <h1>Эффективные решения для <br />вашего бизнеса</h1>
-                <button type="button">Заказать услуги</button>
+            <section class="hero-page">
+                <h1 class="hero-page-studio">Эффективные решения для <br />вашего бизнеса</h1>
+                <button class="hero-page-button" type="button">Заказать услуги</button>
             </section>
        
-        <section>
+        <section class="whatwedo">
             <h2>Наши преимущества</h2>
-            <ul>
-                <li>
-                    <h2>Внимание к деталям</h2>
-                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            <ul class="wharwedo-list">
+                <li class="whatwedo-list-list">
+                    <h2 class="whatwedo-list-list-title">Внимание к деталям</h2>
+                    <p class="whatwedo-list-list-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
                 <li>
-                    <h2>Пунктуальность</h2>
-                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    <h2 class="whatwedo-list-list-title">Пунктуальность</h2>
+                    <p class="whatwedo-list-list-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
                 <li>
-                    <h2>Планирование</h2>
-                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    <h2 class="whatwedo-list-list-title">Планирование</h2>
+                    <p class="whatwedo-list-list-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
                 <li>
                     <h2>Современные технологии</h2>
-                    <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    <p class="whatwedo-list-list-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
         </section>
         <section>
-            <h3>Чем мы занимаемся</h3>
+            <h3 class="whatwedo-list-list-title-hero">Чем мы занимаемся</h3>
             <ul>
                 <li>
                     <img src="./images/img.jpg" alt="Чем мы занимаемся" width="370" />
@@ -72,27 +80,27 @@
                 </li>
             </ul>
         </section>
-        <section>
-            <h3>Наша команда</h3>
+        <section class="ourteam">
+            <h3 class="ourteam-title">Наша команда</h3>
             <ul>
                 <li>
                     <img src="./images/imgc.jpg" alt=" Игорь Демьяненко " width="270" />
-                    <h3>Игорь Демьяненко</h3>
-                    <p>Product Designer</p>
+                    <h3 class="ourteam-title-name">Игорь Демьяненко</h3>
+                    <p class="ourteam-text">Product Designer</p>
                 </li>
                 <li>
                     <img src="./images/imgd.jpg" alt=" Ольга Репина " width="270" />
-                    <h3>Ольга Репина</h3>
-                    <p>Fronted Developer</p>
+                    <h3 class="ourteam-title-name">Ольга Репина</h3>
+                    <p class="ourteam-text">Fronted Developer</p>
                 </li>
                 <li>
                     <img src="./images/imge.jpg" alt=" Николай Тарасов " width="270" />
-                    <h3>Николай Тарасов</h3>
-                    <p>Marketing</p>
+                    <h3 class="ourteam-title-name">Николай Тарасов</h3>
+                    <p class="ourteam-text">Marketing</p>
                 </li>
                 <li><img src="./images/imge.jpg" alt=" Михаил Ермаков" width="270" />
-                    <h3>Михаил Ермаков</h3>
-                    <p>Ul Designer</p>
+                    <h3 class="ourteam-title-name">Михаил Ермаков</h3>
+                    <p class="ourteam-text">Ul Designer</p>
                 </li>
             </ul>
         
@@ -101,21 +109,21 @@
     <footer>
         <h4>
 
-           <a href="https.webe.com"> WebStudio</a>
+        <a class="header-logo" href="https://webstudio.com ">web studio</a
 
         </h4>
 
-        <address>
-            <ul>
-                <li>
-                <p>г.Киев,пр-т Леси Украинки, 26</p>
+        <address class="address-page">
+            <ul class="address-page-list">
+                <li class="address-page-list-numb">
+                <p class="address-page-list-numb-text">г.Киев,пр-т Леси Украинки, 26</p>
                 </li>
                 <li>
-                    <a href="https://studio.com ">info@example.com</a> <br>
+                    <a class="contacts" href="https://edio.com ">info@example.com</a> <br>
                     </li>
                 
                 <li>
-                    <a href="https://wdio.com ">+38096 111 11 11</a>
+                    <a class="contacts" href="https://wdio.com ">+38096 111 11 11</a>
                     </li>
             </ul>
            
