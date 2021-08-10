@@ -11,7 +11,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.20;
   color: #2196f3;
 }
 .header-link:hover,
@@ -35,7 +35,16 @@ body {
   font-size: 16px;
   line-height: 1.6;
 }
-.title {
+.image-list-numb-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
+}
+
+.image-list-numb-title {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -52,7 +61,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   color: #2196f3;
 }
 .hero-page {
