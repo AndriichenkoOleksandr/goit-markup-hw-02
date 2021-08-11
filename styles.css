@@ -6,13 +6,13 @@ body {
   color: black;
 }
 
-.header-logo {
+.header-logo-page {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  color: blue;
+  color: black;
 }
 .header-link:hover,
 .header-link:focus {
@@ -139,4 +139,7 @@ body {
   line-height: 1.8;
   color: white;
   background: #2196f3;
+}
+.logotype {
+  color: blue;
 }
